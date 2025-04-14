@@ -1,0 +1,29 @@
+public class BallonsMainClass 
+{
+	public static void main(String[] args) 
+	{
+		Ballon b1 = new Ballon();
+		Ballon b2 = new Ballon();
+		Ballon b3 = new Ballon();
+		Ballon b4 = new Ballon();
+		
+
+		b1.givencolor("white");
+		b1.BallonInformation();
+		System.out.println("---------------------------");
+		b2.givencolor("blue");
+		b2.BallonInformation();
+		System.out.println("---------------------------");
+		b3.givencolor("gold");
+		b3.BallonInformation();
+		System.out.println("---------------------------");
+		b4.givencolor("red");
+		b4.BallonInformation();
+		System.out.println("---------------------------");
+		
+
+	
+		
+
+	}
+}

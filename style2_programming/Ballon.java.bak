@@ -1,0 +1,40 @@
+/* Write a Program for below requirement
+a.program for ballon
+Ballon Properties are
+1.color
+2.Gas type
+Requirement
+1.All the ballons are filled with helium gas
+2.ballon colors can be white or blue or gold or sliver or red
+Perforn Below Operations
+1.Insiaalize acccordingly
+2.Diaplay Ballon Details
+3.Creat a balllon main class with main method
+4.Create 4 ballon objects
+5.Call the functionalities*/
+
+public class Ballon
+{
+	private static String gasType = "helium";
+	private  String color;
+	public void initialize(String z)
+	{
+		if(z.equals("white")|| z.equals("blue") || z.equals("gold") || z.equals("sliver") ||z.equals("red"))
+			{
+			color = z;
+			}
+			else
+				{
+				System.err.println("Give color is invalid");
+				
+				}
+	}
+	public void BallonDetails()
+	{
+		
+		System.out.println( color+" color ballon is filled with" +gasType +"gas");
+			
+
+
+}
+}

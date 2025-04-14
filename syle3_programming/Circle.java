@@ -1,0 +1,48 @@
+package syle3_programming;
+
+public class Circle 
+{
+	private static double pi = 3.14;
+	private int r;
+
+	public Circle(int a)
+	{
+		if(a>=7 && a<=25)
+			{
+			r = a;
+	
+			}
+			else
+				{
+				System.err.println("Give radius is invalid");
+				System.err.println("Radius shoild ne between 7 to 25 inclusively");
+				}
+		
+	}
+	public void findArea()
+	{
+		double area =  pi*r*r;
+		System.out.println("Area  of Circle: " +area);
+
+	}
+	public void findCircumference()
+	{
+		double Circumference =  2*pi*r;
+		System.out.println("Area  of Circle: " +Circumference);
+
+	}
+		public void CircleInformation()
+	{
+		
+		System.out.println("PI " +pi);
+			System.out.println("Radius: " +r);
+			findArea();
+			findCircumference();
+
+
+	}
+
+
+
+
+}

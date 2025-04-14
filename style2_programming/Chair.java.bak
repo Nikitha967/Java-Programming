@@ -1,0 +1,39 @@
+/*
+WRITE A PROGRAM FOR THE BELOW REQUIREMT
+Program for chair
+Chair Properties are:
+1.Matrial
+2.Type
+Data Requirement:
+1.ALL The chairs are manufactured wood matrial
+2.Chair type can be  office chair, or dinning chair or recliner
+Perform Below operations
+1.Instialize Accordingly 
+2.Display chair details*/
+public class Chair
+{
+	private static String Matrial = "Wood";
+	private  String type;
+	public void initialize(String type)
+	{
+		if(type.equals("Office Chair")|| type.equals("Dinning Chair") || type.equals(" Recliner Chair") )
+			{
+		 this.type = type;
+			}
+			else
+				{
+				System.err.println("Invalid chair type.............");
+				
+				}
+	}
+	public void ChairDetails()
+	{
+	
+		System.out.println("*************************************************************");
+		System.out.println("The Chair is made of  "+Matrial+" Matrial and is an  "+type);
+		System.out.println("*************************************************************");
+			
+
+
+}
+}

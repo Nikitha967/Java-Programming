@@ -1,0 +1,19 @@
+public class BallonsMainClass 
+{
+	public static void main(String[] args) 
+	{
+		Circle c1 = new Circle();
+		Circle c2 = new Circle();
+
+		c1.givenRadius(9);
+		c1.CircleInformation();
+
+		System.out.println("---------------------------");
+		c2.givenRadius(18);
+		c2.CircleInformation();
+
+	
+		
+
+	}
+}
